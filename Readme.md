@@ -19,3 +19,6 @@ This bot is inspired by the *Jujutsu Kaisen* anime. It allows users to engage in
    `bash
    git clone https://github.com/yourusername/jjk-telegram-bot.git
    cd jjk-telegram-bot
+
+      [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=github.com/vip-rehan-mail/JJk-waifu-Game)
+      
