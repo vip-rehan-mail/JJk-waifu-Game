@@ -1,0 +1,21 @@
+{
+  "name": "Your Bot Name",
+  "description": "A simple bot to play games",
+  "repository": "https://github.com/yourusername/yourbotrepo",
+  "keywords": ["telegram", "bot", "game"],
+  "env": {
+    "API_KEY": {
+      "description": "API key for accessing the Telegram Bot API",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Token for your Telegram bot",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
