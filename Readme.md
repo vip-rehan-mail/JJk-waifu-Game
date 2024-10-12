@@ -1,24 +1,40 @@
+# My Game Bot
 
+This is an interactive Telegram game bot designed for group interactions.
 
-# Jujutsu Kaisen Telegram Bot
+## Features
 
-This bot is inspired by the *Jujutsu Kaisen* anime. It allows users to engage in random character battles and receive quotes from their favorite characters.
+- Join and leave game sessions
+- Automatic score tracking
+- Real-time multiplayer game
+- Admin controls to kick players and set game timers
 
-## Features:
-- /start: Introduces the bot.
-- /fight: Simulates a random battle between JJK characters.
-- /quote: Sends a random *Jujutsu Kaisen* quote.
+## Commands
 
-## Requirements
-- Python 3.6+
-- Telegram Bot Token (Get it from [BotFather](https://core.telegram.org/bots))
+### Basic Commands
+- /start - Start the bot and get instructions
+- /help - Display a list of all commands
+- /join - Join the current game
+- /leave - Leave the current game
+- /scoreboard - Display the current scores
+- /rules - Show the game rules
+- /play - Start or resume the game
+- /pause - Pause the game
+- /end - End the game session
 
-## Running the Bot Locally
+### Admin Commands
+- /kick @username - Remove a player from the game
+- /settimer <time> - Set a game timer for rounds
+- /reset - Reset the game
 
-1. Clone the repository:
-   `bash
-   git clone https://github.com/yourusername/jjk-telegram-bot.git
-   cd jjk-telegram-bot
+## Deploy to Heroku
 
-      [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=github.com/vip-rehan-mail/JJk-waifu-Game)
-      
+Click the button below to deploy the bot to Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=github.com/vip-rehan-mail/JJk-waifu-Game)
+
+## How to Contribute
+
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request
